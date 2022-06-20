@@ -75,3 +75,27 @@ body{
 section{
     scroll-margin-top: 4rem;
 }
+
+#gambar{
+    transition: 0.5s;
+}
+
+#gambar:hover{
+    width: 110%;
+    height:110%;
+    transition: 0.5s;
+    z-index:1;
+    margin:auto;
+}
+
+form #email_error, form #nama_error, form #nomor_error, form #pesan_error {
+    text-align: center;
+    margin: 10px 0px;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: none;
+}
+i {
+    height: 10px;
+    color: black;
+}
