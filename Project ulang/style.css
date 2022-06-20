@@ -4,6 +4,10 @@
     --clr-gray: rgb(107 114 128);
 }
 
+* {
+    transition: .15s ease-in-out, color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -98,4 +102,23 @@ form #email_error, form #nama_error, form #nomor_error, form #pesan_error {
 i {
     height: 10px;
     color: black;
+}
+.social-media {
+    margin-top: 50px;
+    font-size: xx-large;
+}
+@media only screen and (max-width: 992px) {
+    .social-media {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+.social-media a  {
+    margin: 0px 20px;
+}
+.social-media a i:hover {
+    color: white;
+}
+.tombol-form {
+    width: 100%;
 }
